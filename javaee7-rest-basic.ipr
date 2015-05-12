@@ -5,11 +5,6 @@
       <output-path>$PROJECT_DIR$/target</output-path>
       <root id="archive" name="javaee7-rest-basic.war">
         <element id="artifact" artifact-name="javaee7-rest-basic:war exploded" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="lib">
-            <element id="library" level="application" name="Clover IDEA Plugin" />
-          </element>
-        </element>
       </root>
     </artifact>
     <artifact type="exploded-war" name="javaee7-rest-basic:war exploded">
@@ -21,7 +16,9 @@
           </element>
           <element id="directory" name="lib">
             <element id="library" level="project" name="Maven: org.jboss.resteasy:jaxrs-api:3.0.6.Final" />
-            <element id="library" level="application" name="Clover IDEA Plugin" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-server:1.19" />
+            <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.19" />
+            <element id="library" level="project" name="Maven: javax.ws.rs:jsr311-api:1.1.1" />
           </element>
         </element>
         <element id="directory" name="META-INF">
@@ -100,6 +97,28 @@
     <mapping directory="" vcs="" />
   </component>
   <component name="libraryTable">
+    <library name="Maven: com.sun.jersey:jersey-core:1.19">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19/jersey-core-1.19-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-core/1.19/jersey-core-1.19-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: com.sun.jersey:jersey-server:1.19">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19/jersey-server-1.19.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19/jersey-server-1.19-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/sun/jersey/jersey-server/1.19/jersey-server-1.19-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: javax.enterprise:cdi-api:1.1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar!/" />
@@ -120,6 +139,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: javax.ws.rs:jsr311-api:1.1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.jboss.resteasy:jaxrs-api:3.0.6.Final">

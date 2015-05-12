@@ -1,16 +1,9 @@
-Basic REST Web services example
-=====================================
-Example taken from [Practical Java EE 7 Development using WildFly application server](http://www.itbuzzpress.com/ebooks/java-ee-7-development-on-wildfly.html)
-
-This example demonstrates the basic usage of REST Web services
-
-###### Build and Deploy
-```shell
-mvn clean install wildfly:deploy  
-```
-
-###### Test
-```shell
-http://localhost:8080/javaee7-rest-basic/
-```
- 
+ сделать war-приложение.  
+ В нём: один EJB-сервис отдаёт/сохраняет  entity (человек: Фамилия, Имя, Отчество, дата рождения). 
+ Базу не надо, сохранение идёт в память. 
+ REST-контроллер, который выдаёт/принимает данные человека как JSON 
+ + 1 страничка html+jquery которая показывает и даёт редактировать эти четыре поля: 
+ Фамилия, Имя, Отчество, дата рождения. К дате рождения на страничке прицепить календарь. 
+ Желательно обойтись JAX-RS, но можно использовать и что-то другое. 
+ В таком случае - объясните свой выбор. 
+ web-приложение должно запускаться на jboss 7.x или на wildfly 8.x
