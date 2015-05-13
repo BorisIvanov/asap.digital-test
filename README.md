@@ -7,3 +7,8 @@
  Желательно обойтись JAX-RS, но можно использовать и что-то другое. 
  В таком случае - объясните свой выбор. 
  web-приложение должно запускаться на jboss 7.x или на wildfly 8.x
+ 
+ 
+ wildfly 8.x
+ http://127.0.0.1:10090/console/App.html#mbui;dialog=subsystems_undertow-servlet.xml
+ Allow non standard wrappers: true
