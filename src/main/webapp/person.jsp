@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Person page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="theme/jquery-ui-1.10.0.custom.css">
-    <link rel="stylesheet" href="theme/jquery.ui.1.10.0.ie.css">
+    <link rel="stylesheet" href="${contextPath}/theme/jquery-ui-1.10.0.custom.css">
+    <link rel="stylesheet" href="${contextPath}/theme/jquery.ui.1.10.0.ie.css">
 </head>
 <body>
 <div class="container">
@@ -17,7 +17,8 @@
             <div class="form-group">
                 <label for="firstName" class="col-sm-2 control-label">First Name</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name"
+                           value="${person.firstName}">
                 </div>
             </div>
             <div class="form-group">
