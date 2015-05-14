@@ -41,7 +41,7 @@
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-4">
-                    <button type="submit" class="btn btn-default">Save</button>
+                    <button type="button" class="btn btn-default">Save</button>
                 </div>
             </div>
         </form>
@@ -50,10 +50,15 @@
 <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="${contextPath}/js/app.js"></script>
 <script>
-    $(function() {
-        $( "#birthday" ).datepicker();
-    });
+    var res = {
+        url:{
+            person:{
+                post: "${contextPath}/rest/person"
+            }
+        }
+    };
 </script>
 </body>
 </html>
