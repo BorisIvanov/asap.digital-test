@@ -24,19 +24,22 @@
             <div class="form-group">
                 <label for="middleName" class="col-sm-2 control-label">Middle Name</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                    <input type="text" class="form-control" id="middleName" placeholder="Middle Name"
+                           value="${person.middleName}">
                 </div>
             </div>
             <div class="form-group">
                 <label for="lastName" class="col-sm-2 control-label">Last Name</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name"
+                           value="${person.lastName}">
                 </div>
             </div>
             <div class="form-group">
                 <label for="birthday" class="col-sm-2 control-label">Birthday</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="birthday" placeholder="Birthday">
+                    <input type="text" class="form-control" id="birthday" placeholder="Birthday"
+                           value="${person.birthday}">
                 </div>
             </div>
             <div class="form-group">

@@ -6,13 +6,13 @@ import javax.inject.Named;
 @Singleton
 @Named
 public class PersonBean {
-    private String firstName;
+    private Person person;
 
-    public String getFirstName() {
-        return firstName;
+    public Person getPerson() {
+        return person;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setPerson(Person person) {
+        this.person = person;
     }
 }
