@@ -1,10 +1,12 @@
 package digital.asap;
 
+import java.util.Date;
+
 public class Person {
     private String firstName;
     private String middleName;
     private String lastName;
-    private String birthday;
+    private Date birthday;
 
     public String getFirstName() {
         return firstName;
@@ -30,11 +32,12 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public String getBirthday() {
+    public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(String birthday) {
+    public void setBirthday(Date birthday) {
         this.birthday = birthday;
     }
+
 }

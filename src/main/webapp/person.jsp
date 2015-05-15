@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +40,7 @@
                 <label for="birthday" class="col-sm-2 control-label">Birthday</label>
                 <div class="col-sm-4">
                     <input type="text" class="form-control" id="birthday" placeholder="Birthday"
-                           value="${person.birthday}">
+                           value="<fmt:formatDate value="${person.birthday}" pattern="dd.MM.yyyy"/>">
                 </div>
             </div>
             <div class="form-group">

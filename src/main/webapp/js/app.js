@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $("#birthday").datepicker();
+    $("#birthday").datepicker({dateFormat: "dd.mm.yy"});
 
     $("button").on("click", function () {
 
