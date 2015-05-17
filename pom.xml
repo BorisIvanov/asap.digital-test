@@ -2,12 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.itbuzzpress.chapter11</groupId>
-    <artifactId>javaee7-rest-basic</artifactId>
+    <groupId>asap.digital</groupId>
+    <artifactId>test</artifactId>
     <packaging>war</packaging>
     <version>1.0.0</version>
-    <name>Demo REST Service</name>
-    <url>http://www.itbuzzpress.com</url>
+    <name>asap.digital</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

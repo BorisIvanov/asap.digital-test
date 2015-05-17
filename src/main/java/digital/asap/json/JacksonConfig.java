@@ -1,4 +1,4 @@
-package digital.asap;
+package digital.asap.json;
 
 import com.fasterxml.jackson.core.Version;
 import com.fasterxml.jackson.databind.ObjectMapper;

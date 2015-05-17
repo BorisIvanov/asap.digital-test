@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ArtifactManager">
-    <artifact type="war" name="javaee7-rest-basic:war">
+    <artifact type="war" name="asap.digital.test:war">
       <output-path>$PROJECT_DIR$/target</output-path>
-      <root id="archive" name="javaee7-rest-basic.war">
-        <element id="artifact" artifact-name="javaee7-rest-basic:war exploded" />
+      <root id="archive" name="test.war">
+        <element id="artifact" artifact-name="asap.digital.test:war exploded" />
       </root>
     </artifact>
-    <artifact type="exploded-war" name="javaee7-rest-basic:war exploded">
-      <output-path>$PROJECT_DIR$/target/javaee7-rest-basic</output-path>
+    <artifact type="exploded-war" name="asap.digital.test:war exploded">
+      <output-path>$PROJECT_DIR$/target/test</output-path>
       <root id="root">
         <element id="directory" name="WEB-INF">
           <element id="directory" name="classes">
-            <element id="module-output" name="javaee7-rest-basic" />
+            <element id="module-output" name="asap.digital.test" />
           </element>
           <element id="directory" name="lib">
             <element id="library" level="project" name="Maven: org.jboss.resteasy:jaxrs-api:3.0.6.Final" />
@@ -27,9 +27,9 @@
           </element>
         </element>
         <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/target/javaee7-rest-basic/META-INF/MANIFEST.MF" />
+          <element id="file-copy" path="$PROJECT_DIR$/target/test/META-INF/MANIFEST.MF" />
         </element>
-        <element id="javaee-facet-resources" facet="javaee7-rest-basic/web/Web" />
+        <element id="javaee-facet-resources" facet="asap.digital.test/web/Web" />
       </root>
     </artifact>
   </component>
@@ -56,11 +56,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="javaee7-rest-basic" />
+        <module name="asap.digital.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="javaee7-rest-basic" target="1.7" />
+      <module name="asap.digital.test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -91,8 +91,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaee7-rest-basic.iml" filepath="$PROJECT_DIR$/javaee7-rest-basic.iml" />
-      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asap.digital.test.iml" filepath="$PROJECT_DIR$/asap.digital.test.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
